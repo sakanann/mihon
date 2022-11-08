@@ -1,0 +1,115 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* ここから */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+  font-size: 15px;
+}
+
+header ul {
+  margin: 0;
+  padding:0;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header li {
+  float: left;
+  padding: 10px;
+  list-style: none;/*リストマーカー（・）やアンダーバーを表示させない*/
+}
+.left {
+  float: left;
+  margin: 5px;
+}
+
+.right_menu {
+  float: right;
+}
+
+.right {
+  float: left;
+  margin: 5px;
+}
+
+header ul:after {
+}
+/* ここまでがheader部分の実装 */
+
+.main-header img {
+  width: 13%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+    /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  }
+  
+  .about h1{
+  /* About Achieve部分の実装 */
+  font-size: 1.5rem;
+  }
+  
+  .about p{
+    font-size: 0.8rem;
+  }
+  
+  /* ここから */
+  .function {
+  background-color: #D3D3D3;
+  width: 100%;
+  height: 450px;
+  margin:0 auto;
+  }
+  
+  .function h1{
+    font-size: 30px;
+    padding: 25px;
+    margin:0 auto;
+  }
+  
+  .function-images {
+    width: 1000px;
+    margin:0 auto;
+  }
+  
+  .function-image{
+    float: left;
+    padding: 50px 60px;
+  }
+  /* ここまでがfunction部分の実装 */
+
+footer {
+  width: 100%;
+  height: 70px;
+  background-color: #283A4B;
+  position: absolute;
+  bottom: 0;
+}
+footer p {
+  font-size: 0.8rem;/*rem（レム）は「root em」の略で、名前のとおり「最上位階層の『em（エム）』」を意味*/
+  color: #fff;
+  text-align: center;     /*フッターの左右中央に配置*/
+  vertical-align: middle; /*フッターの上下中央に配置*/
+}
+/* footer部分の実装 */
